@@ -2,7 +2,7 @@ import { useState } from "react"
 import "./UseState.css"
 const UseState = () => {
     const [value, setValue] = useState(0);
-    const [show, setShow]= useState(true)
+    const [show, setShow]= useState(false)
     const Inc =()=>{
         setValue(value+1);
     }
